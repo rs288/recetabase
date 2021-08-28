@@ -1,0 +1,124 @@
+body {
+	background: #2a2a2e;
+	color: white;
+	max-width: 800px ;
+	margin: auto ;
+	padding: 0 16px ;
+	font-family: sans-serif ;
+}
+
+a {
+	color: #287dff;
+}
+/* a:visited {	color: gray ;}*/
+a:hover {
+	color:  greenyellow;
+}
+.row{
+  display:flex;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+p.date {
+    font-size: 13px;
+}
+#ultimas_ul {
+    list-style: none;
+    padding: 0;
+}
+#ultimas_ul li {
+    padding-bottom: 10px;
+}
+a.footer{
+    margin: 10px;
+}
+#tagcloud {
+    padding: 0;
+    font-variant: small-caps;
+    background: midnightblue;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 300px;
+}
+
+#tagcloud li {
+    display: inline-block;
+    padding: 0.4em;
+    margin: 0.5em;
+    width: auto;
+    background: darkturquoise;
+    border-radius: 10px;
+}
+
+#tagcloud li:hover {
+    background: white;
+}
+
+#tagcloud a {
+    color: black;
+}
+h1 {
+	text-align: center ;
+}
+h2 {
+    color: tomato;
+}
+footer {
+	text-align: center ;
+}
+
+img {
+	max-width: 600px ;
+	width: 100% ;
+	margin: auto ;
+	display: block ;
+}
+
+code {
+	overflow-wrap: break-word ;
+	color: lime ;
+}
+
+img[alt="BTC logo"],
+img[alt="XMR Logo"] {
+	max-width: 1em ;
+	max-height: 1em ;
+	display: inline ;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background: white ;
+		color: black ;
+	}
+	a {
+		color: blue ;
+	}
+	a:visited {
+		color: purple ;
+	}
+	h2 {
+		color: inherit ;
+	}
+	code {
+		color: forestgreen ;
+	}
+}
+
+@media print {
+	a[href] {
+		text-decoration: none ;
+		color: black ;
+	}
+}
+
+@media (min-width: 55em) {
+	#myUL { column-count: 2 ;}
+}
+
+@media (min-width: 100em) {
+	#myUL { column-count: 3 ;}
+}
+
