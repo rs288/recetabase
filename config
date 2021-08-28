@@ -1,0 +1,5 @@
+BLOG_TITLE:=Receta base
+BLOG_DATE_FORMAT_INDEX:=%F
+BLOG_DATE_FORMAT:=%F
+BLOG_SRC:=src
+BLOG_URL_ROOT:=https://recetabase.xyz/
