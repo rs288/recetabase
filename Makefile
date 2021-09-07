@@ -148,8 +148,6 @@ blog/%.html: $(BLOG_SRC)/%.md $(addprefix templates/,$(addsuffix .html,header ar
 	export TITLE; \
 	PAGE_TITLE="Receta: $${TITLE}  -- $(BLOG_TITLE)"; \
 	export PAGE_TITLE; \
-	AUTHOR="$(shell git log --format="%an" -- "$<" | tail -n 1)"; \
-	export AUTHOR; \
 	DATE_POSTED="$(shell git log -n 1 --diff-filter=A --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
 	export DATE_POSTED; \
 	DATE_EDITED="$(shell git log -n 1 --date="format:$(BLOG_DATE_FORMAT)" --pretty=format:'%ad' -- "$<")"; \
