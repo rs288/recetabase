@@ -1,6 +1,8 @@
 body {
-	background: #2a2a2e;
-	color: white;
+    /*background: #2a2a2e;
+	color: white;*/
+    background: #151515 ;
+	color: #ccc ;
 	max-width: 800px ;
 	margin: auto ;
 	padding: 0 16px ;
@@ -10,7 +12,7 @@ body {
 a {
 	color: #287dff;
 }
-/* a:visited {	color: gray ;}*/
+/*a:visited {	color:mediumvioletred ;} */
 a:hover {
 	color:  greenyellow;
 }
@@ -88,7 +90,7 @@ img[alt="XMR Logo"] {
 	display: inline ;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
 	body {
 		background: white ;
 		color: black ;

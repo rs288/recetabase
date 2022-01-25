@@ -66,6 +66,7 @@ blog/index.html: $(ARTICLES) $(addprefix templates/,$(addsuffix .html,header ind
 	export TITLE; \
 	export PAGE_TITLE; \
 	envsubst < templates/header.html > $@; \
+	envsubst < templates/banner.html >> $@; \
 	envsubst < templates/index_header.html >> $@; \
 	printf '<h2 id="ultimas"> Ultimas recetas</h2>\n<ul id="ultimas_ul">' >> $@ 
 	for f in $(ARTICLES); do \
