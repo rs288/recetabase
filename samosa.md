@@ -1,4 +1,4 @@
-Relleno
+## Relleno
 
 2 cucharaditas de aceite
 1/2 cuchara de comino en grano
@@ -12,7 +12,7 @@ Relleno
 1/2 cucharada de sal
 2 papas hervidas
 
-masa de samosa
+## masa de samosa
 
 1 taza de harina
 1/2 cdta sal
